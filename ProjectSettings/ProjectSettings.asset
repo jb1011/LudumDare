@@ -746,6 +746,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -759,10 +760,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: d117c640-7682-4067-9864-584d7e2dc62f
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: LudumDare
+  organizationId: arthurdompe
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
