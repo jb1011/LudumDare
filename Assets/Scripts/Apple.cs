@@ -2,24 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TouchPlayer : MonoBehaviour
+public class Apple : MonoBehaviour
 {
-    private Animator _anim;
-
     [SerializeField]
     private FloatVariable _happiness;
-
-    private void Start()
+    // Start is called before the first frame update
+    void Start()
     {
-        _anim = GetComponent<Animator>();
-        _happiness.Value = 0;
+        
     }
 
+    // Update is called once per frame
     void Update()
     {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            _anim.SetTrigger("Jump");
+            gameObject.SetActive(false);
+            _happiness.Value += 10f;
         }
     }
 }
