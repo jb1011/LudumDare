@@ -4,18 +4,14 @@ using UnityEngine;
 
 public class TouchPlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private GameObject _touchParticleSystem;
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            Debug.Log("Hey");
+            Instantiate(_touchParticleSystem, gameObject.transform);
         }
     }
 }
