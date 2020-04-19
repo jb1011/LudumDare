@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _happiness: {fileID: 11400000, guid: 4ebae1bdfb28dcd4b9d60f2347c0c95b, type: 2}
+  _camera: {fileID: 807138527}
 --- !u!1 &102491578
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,6 +346,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PommePrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829314864346071684, guid: bcb23e89a76643b448d894fedb489ad8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Item
       objectReference: {fileID: 0}
     - target: {fileID: 3402559633874120855, guid: bcb23e89a76643b448d894fedb489ad8,
         type: 3}
@@ -679,6 +685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MarcelWithAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bd8698fc3a6a4340b978a4a3a7b4782,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1651062367082650294, guid: 0bd8698fc3a6a4340b978a4a3a7b4782,
         type: 3}
